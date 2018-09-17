@@ -1,6 +1,6 @@
 ; nasm -f elf32 -g -F dwarf hello.asm 
 ; gcc -g -m32 -o hello hello.o
-; se poate compila cu gcc sau rula în sasn 
+; se poate compila cu gcc sau rula în sasm
 ; 
 	
 section .data
