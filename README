@@ -12,6 +12,16 @@ SASM session to see the IDE
 - start debugging with F5
 - run step by step  to see registers changing
 
+Quick gdb walkthrough
+# gdb hello 
+b main 
+p (char*)(&msg) 
+p len
+r 
+n 
+n
+q
+
 Example to show one way to use assembler inside C code
 # less inline.c 
 
@@ -26,6 +36,9 @@ Compare running time for 1000 iterations
 
 Clean up directory 
 # make clean 
+
+Quick review of Makefile and compile options 
+# less Makefile 
 
 
 
